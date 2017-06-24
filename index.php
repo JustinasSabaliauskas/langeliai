@@ -13,14 +13,17 @@
   <div class="col-md-4"></div>
 
   <div class="col-md-4">
+<table class="table">
+
 
   <?php  
-for ($x = 0; $x <= 100; $x++) {
-  echo "<table> <td> $x </td></table><br/> <table>";
-
+for ($x = 1; $x <= 400; $x++) {
+  echo "<table><td> $x </td></table>";
 }
-?>  
-</tr>
+?> 
+
+
+</table>
   <div class="col-md-4"></div>
 
 

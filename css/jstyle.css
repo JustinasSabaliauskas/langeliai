@@ -1,12 +1,12 @@
 
     table
-    { border-spacing: -2pc; }
+    { border-spacing: 10px; }
 
     td
 
     {
-      height: 30px;
-      width: 30px;
+      height: auto;
+      width: auto;
       text-align: center;
       background-color: blue;
       font-family: verdana;
