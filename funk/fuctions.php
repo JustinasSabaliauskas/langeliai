@@ -2,7 +2,7 @@
 
 
 function get_feel($t){
-if ($t >= 1) {
+if ($t => 5) {
     return "Salta!";
 } 
 else if ($t >= 15) {
@@ -45,3 +45,9 @@ else if ($t >= 29)
 </body>
 </html>
 
+//namu darbam lentele su baseinu get_area() - turi baseini get volume.(3 paramentrai)
+//kiek reikes masinu uzpildyti baseina -get_truck  count
+// $turis = get_volume ($ilfis, $plotis, $gylis)
+//$sunkvezimiai = gauti sunkvezimius ($turi, $cisterna)
+
+//echo"jei ilgis yra" .$ilgis. "tai reikes" . 
