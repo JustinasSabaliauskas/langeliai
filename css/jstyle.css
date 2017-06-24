@@ -1,0 +1,17 @@
+
+    table
+    { border-spacing: -2pc; }
+
+    td
+
+    {
+      height: 30px;
+      width: 30px;
+      text-align: center;
+      background-color: blue;
+      font-family: verdana;
+      font-size: 10px;
+      color: white;
+    }
+
+ 
