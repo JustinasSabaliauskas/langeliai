@@ -1,11 +1,8 @@
 <?php
     function get_area($turis)
     {
-    	$gylis = rand(1, 50);
-    
-    	return $gylis;
-    
-    	$turis = 20 * 5 * $gylis;
+    	
+    $turis = 20 * 5 * $gylis;
     	
     	return $turis;
     }
@@ -46,3 +43,19 @@
         </div>
     </body>
 </html>
+//col span -sujungia 2 ir daugiau andeliu
+//row span - jungia stulpelius
+------------------------------
+strlen - //skaiciuja simbolius
+strpos- 
+strlower -lowecase
+stroupper- upercase
+stro_replace- pakeicia teksta kitu
+ucwords - visu zodziu visos pitmors raides didzioiso
+str_dhuffle - sukeicia raides vietomis
+rtrim- nirode simboli nutrina nuo galo "."
+ltrim - nutrina nuo priekio (@tekstas, ".") //$reszultatas-" zodis"/\
+sprintf - i sablobna iterpia reiksmes($teksto sablonas "Justia", "patenkinimas") - 
+$tejsitSablonas 5s, jusu rezultatas %s";
+<?=?>sintkse
+<?=$pavyzdys;?> - taupant vietos <body>
