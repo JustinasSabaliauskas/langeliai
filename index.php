@@ -1,48 +1,39 @@
 <?php
 
+$gylis = 1.3;
 
-function get_feel($t){
-if ($t <= 5) {
-    return "Salta!";
-} 
-if ($t >= 6) {
-    return "Silta!";
-} 
-else if ($t >= 29)
+
+function get_area($turis)
 {
-    return "Karsta!";
-}
+	$turis = 20 * 5 * $gylis;
+	
+	return $turis;
 }
 
 ?>
+
 <!DOCTYPE html>
 <html>
 <head>
-	
+<title>Baseinai ir autocisternos</title>
+
 </head>
 <body>
 <table>
-	
-	<tr>
-	<th> Temperatura</th> 
-	<th>Pojutis</th>
+<tr>
+	<th>Baseino gylis </th> <th> Baseino turis</th> <th>Cisternos</th>
 	</tr>
-		<?php
-			for ($t=0; $t <=30 ; $t++) { 
-				echo "<tr><td>" .$t. "</td> <td>" .get_feel($t)."</td></tr>";
-			}
-			?>
+<?php
+
+for ($gylis=0; $gylis <=1; $gylis++) { 
 		
+echo "<tr><td" .$gylis. "</td><td>" .get_area($turis). "</td></tr>";}
+
+
+?>
+
+
 </table>
 
 </body>
 </html>
-
-//namu darbam lentele su baseinu get_area() - turi baseini get volume.(3 paramentrai)
-//kiek reikes masinu uzpildyti baseina -get_truck  count
-// $turis = get_volume ($ilfis, $plotis, $gylis)
-//$sunkvezimiai = gauti sunkvezimius ($turi, $cisterna)
-
-//echo"jei ilgis yra" .$ilgis. "tai reikes" . 
-
-        
