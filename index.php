@@ -2,17 +2,21 @@
 
 function get_area($turis)
 {
+	$gylis = rand(1, 50);
+
+	return $gylis;
+
 	$turis = 20 * 5 * $gylis;
 	
 	return $turis;
 }
-function cisternos(){
-	if ($turis <= 400 ) {
+//function cisternos(){
+	//if ($turis <= 400 ) {
 		
-	}
-	}
-	return $cisternos
-}
+	//}
+	//}
+	//return $cisternos
+//}
 
 ?>
 
@@ -29,9 +33,9 @@ function cisternos(){
 	</tr>
 <?php
 
-for ($gylis= 0; $gylis <= 100; $gylis++) { 
+
 		
-echo "<tr><td" .$gylis. "</td><td>" . get_area($turis). "</td></tr>";}
+echo "<tr><td" .$gylis. "</td><td>" . get_area($turis). "</td></tr>";
 
 
 ?>
