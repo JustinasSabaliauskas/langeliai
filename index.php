@@ -1,12 +1,10 @@
 <?php
     function get_area($turis)
     {
-    	$gylis = rand(1, 50);
-    
-    	return $gylis;
-    
+    	$gylis = 1.3;
+
     	$turis = 20 * 5 * $gylis;
-    	
+    
     	return $turis;
     }
     //function cisternos(){
@@ -36,12 +34,13 @@
                             <th>Cisternos</th>
                         </tr>
                         <?php
-                            echo "<tr><td" .$gylis. "</td><td>" . get_area($turis). "</td></tr>";}
-                            
-                            ?>
+                        for ($gylis=0; $gylis < 1 ; $gylis++) { 
+                        
+                            echo "<tr><td" .$gylis. "</td><td>" .get_area($turis) . "</td></tr>";}
+                           ?>
                     </table>
                 </div>
-                <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+                <div class="col-xs-6 col-md-4"></div>
             </div>
         </div>
     </body>
