@@ -4,7 +4,7 @@
 	echo "<table><tr><th>Ingredietas</th><th>Kiekis</th></tr>";
 			foreach ($sudetis as $sudetis => $value)
 {
-			echo "<tr> <td>" .$sudetis. "<td><td>" .$value. "</td></tr>";
+			echo "<tr><td>" .$sudetis. "<td><td>" .$value. "</td></tr>";
 }
 			echo "</table>";
 }
@@ -20,7 +20,7 @@
 <body>
 <?php
 
-//$sudetis = ["jautiena"=>"250", "pupeles"=>"500", "vanduo"=>"500", "pomidorai"=>"300","paprika"=>"100"];
+$sudetis = ["jautiena"=>"250", "pupeles"=>"500", "vanduo"=>"500", "pomidorai"=>"300","paprika"=>"100"];
 
 //foreach ($sudetis as $sudetis => $value) {
 	//echo "<ul><li>" .$sudetis."</li></ul>";
@@ -28,7 +28,7 @@
 	//echo $pateikimas;
 	//echo "Ingredietas : " .$sudetis. ", sudetis :" . $value. " gr. </br>";
 	//echo "<tr><td>" .$sudetis. "<td><td>" .$value. "</td></tr>";
-$sudetis
+
 //}
 //$tekstas = sprintf("Padaugitni %u, is %u", $suma, $kinta);
 //echo $tekstas
