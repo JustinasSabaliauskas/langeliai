@@ -1,10 +1,9 @@
 <?php
-function atsitiko($gerimai){
-$i = rand(0, count($gerymai) -1);
-$a = [$i];
-echo sprintf("Jusu gerymas yra %u",$a);
-}
-
+//function atsitiko($gerimai){
+//$i = rand(0, count($gerymai) -1);
+//$a = [$i];
+//echo sprintf("Jusu gerymas yra %u",$a);
+//}
 ?>
 <!DOCTYPE html>
 <html>
